@@ -35,7 +35,7 @@ The following are images taken from message boxes that state the run time of the
 ## Summary
 #### What are the advantages or disadvantages of refactoring code?
 ##### *Advantages*
-Refactored code enables the program to run without looping through rows unless it is necessary for it to do so. It is thus able ot run more efficiently, requiring less time to perform the calculations. In a small dataset this would make little difference, but it leads to much greater speed when the program is analyzing very large quantities of data. 
+Refactored code enables the program to run without looping through rows unless it is necessary for it to do so. It is thus able to run more efficiently, requiring less time to perform the calculations. In a small dataset this would make little difference, but it leads to much greater speed when the program is analyzing very large quantities of data. 
 ##### *Disadvantages*
 Refactored code is more complicated to write and to understand.
 
