@@ -17,7 +17,6 @@ By means of refactoring, the code becomes more efficient by avoiding some of the
 
 Here is an illustration of the pertinent section of the refactored code:
 https://github.com/JGGall/stock-analysis/blob/main/Resources/Refactored_code.png
-https://github.com/JGGall/stock-analysis/blob/main/Resources/Refactored_code.png
 
 The refactored code reduced the run time of the program from about 0.65 and 0.64 seconds for 2017 and 2018, respectively, to 0.13 and 0.13 seconds.
 The following are images taken from message boxes that state the run time of the slower original code and the more efficient refactored code:
