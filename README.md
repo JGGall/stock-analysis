@@ -17,7 +17,7 @@ The original code looped through all of the rows of one ticker to get the total 
 
 By means of refactoring, the code becomes more efficient by avoiding some of the looping. The refactored code sends trading volume, starting prices, and ending prices to three arrays, and then needs only to loop through those arrays in order to output the data to the workseet.
 
-Here is an illustration of the pertinent sectionof the refactored code:
+Here is an illustration of the pertinent section of the refactored code:
 
 ![Refactored_code](Resources/Refactored_code.png)
 
