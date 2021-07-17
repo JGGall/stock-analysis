@@ -34,6 +34,19 @@ The following are images taken from message boxes that state the run time of the
 
 ## Summary
 #### What are the advantages or disadvantages of refactoring code?
-Refactored code
+##### *Advantages*
+Refactored code enables the program to run without looping through rows unless it is necessary for it to do so. It is thus able ot run more efficiently, requiring less time to perform the calculations. In a small dataset this would make little difference, but it leads to much greater speed when the program is analyzing very large quantities of data. 
+##### *Disadvantages*
+Refactored code is more complicated to write and to understand.
+
 
 #### How do these pros and cons apply to refactoring the original VBA script?
+
+#####*Pros*
+
+The VBA script analyzes a dataset that is 3013 lines long. It is impressive to note that even with that moderate amount of data, the refactored code ran in only 20% of the time the original code required--a savings, of course, of 80%.
+
+#####*Cons*
+
+
+The effort required to refactor the original code might not be worthwhile if the analysis is intended to be run only once or only infrequently, as even the original code ran in less than one second. Code should be refactored if the amount of data to be analyzed is large, and the efficiency it produces is useful.
