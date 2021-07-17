@@ -15,7 +15,8 @@ The original code looped through all of the rows of one ticker to get the total 
 
 By means of refactoring, the code becomes more efficient by avoiding some of the looping. The refactored code sends trading volume, starting prices, and ending prices to three arrays, and then needs only to loop through those arrays in order to output the data to the workseet.
 
-Here is an illustration of the pertinent sectionof the refactored code:
+Here is an illustration of the pertinent section of the refactored code:
+https://github.com/JGGall/stock-analysis/blob/main/Resources/Refactored_code.png
 https://github.com/JGGall/stock-analysis/blob/main/Resources/Refactored_code.png
 
 The refactored code reduced the run time of the program from about 0.65 and 0.64 seconds for 2017 and 2018, respectively, to 0.13 and 0.13 seconds.
